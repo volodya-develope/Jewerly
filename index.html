@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,500&display=swap');
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+
+        <div class="header__top-inner">
+          <div class="header__top-left">
+            <ul class="header__left-items">
+              <li class="header__left-item">
+                <a class="header__left-link" href="#">
+                  Contractors
+                </a>
+              </li>
+              <li class="header__left-item">
+                <a class="header__left-link" href="#">
+                  Designers
+                </a>
+              </li>
+              <li class="header__left-item">
+                <a class="header__left-link" href="#">
+                  Job vacancies
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__top-middle">
+            <a class="header__middle-logo" href="#">
+              <img class="header__middle-img" src="images/logo.png" alt="logo">
+            </a>
+          </div>
+          <div class="header__top-right">
+            <div class="header__right-inner">
+              <div class="header__right-search">
+                <a class="header__right-link" href="#">Search</a>
+              </div>
+              <div class="header__right-authorization">
+                <a class="header__right-in" href="#">login</a>/
+                <a class="header__right-up" href="">registration</a>
+              </div>
+              <div class="header__right-links">
+                <a class="header__right-acc" href="#">
+                  <img class="header__right-img" src="images/account.svg" alt="account">
+                </a>
+                <a class="header__right-acc" href="#">
+                  <img class="header__right-img" src="images/likes.svg" alt="likes">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__middle">
+          <h3 class="header__middle-title">
+            Long, expensive, rich!
+          </h3>
+          <a class="header__middle-link" href="#">
+            product catalog
+          </a>
+        </div>
+
+        <div class="header__bottom">
+          <ul class="header__bottom-items">
+            <li class="header__bottom-item header__bottom-none">
+              <a class="header__bottom-link" href="#">
+                <img class="header__bottom-img" src="images/sponsor.png" alt="sponsor-img">
+              </a>
+            </li>
+            <li class="header__bottom-item">
+              <a class="header__bottom-link" href="#">
+                <img class="header__bottom-img" src="images/sponsor.png" alt="sponsor-img">
+              </a>
+            </li>
+            <li class="header__bottom-item">
+              <a class="header__bottom-link" href="#">
+                <img class="header__bottom-img" src="images/sponsor.png" alt="sponsor-img">
+              </a>
+            </li>
+            <li class="header__bottom-item">
+              <a class="header__bottom-link" href="#">
+                <img class="header__bottom-img" src="images/sponsor.png" alt="sponsor-img">
+              </a>
+            </li>
+            <li class="header__bottom-item">
+              <a class="header__bottom-link" href="#">
+                <img class="header__bottom-img" src="images/sponsor.png" alt="sponsor-img">
+              </a>
+            </li>
+            <li class="header__bottom-item">
+              <a class="header__bottom-link" href="#">
+                <img class="header__bottom-img" src="images/sponsor.png" alt="sponsor-img">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="products">
+      <div class="container">
+        <p class="products__text">
+          At events
+        </p>
+        <h4 class="products__title">
+          Real beauty here
+        </h4>
+        <div class="products__tabs">
+          <div class="products__tabs-top">
+            <a class="products__tabs-inner products__tabs-inner--active" href="#wedding">
+              <div class="products__top-item">wedding</div>
+            </a>
+            <a class="products__tabs-inner" href="#husband">
+              <div class="products__top-item">husband</div>
+            </a>
+            <a class="products__tabs-inner" href="#wife">
+              <div class="products__top-item">wife</div>
+            </a>
+            <a class="products__tabs-inner" href="#partner">
+              <div class="products__top-item">porter</div>
+            </a>
+            <a class="products__tabs-inner" href="#collection">
+              <div class="products__top-item">collection</div>
+            </a>
+            <a class="products__tabs-inner" href="#rarity">
+              <div class="products__top-item">rarity</div>
+            </a>
+          </div>
+          <div class="products__content">
+            <div class="products__content-item products__content-item--active" id="wedding">
+              <a class="products__content-link" href="#">
+                <img class="products__content-img" src="images/products/1.jpg" alt="img1">
+                <span class="products__content-text">Rings</span>
+              </a>
+              <a class="products__content-link" href="#">
+                <img class="products__content-img" src="images/products/2.jpg" alt="img2">
+                <span class="products__content-text">earrings</span>
+              </a>
+              <a class="products__content-link" href="#">
+                <img class="products__content-img" src="images/products/3.jpg" alt="img3">
+                <span class="products__content-text">suspension</span>
+              </a>
+              <a class="products__content-link" href="#">
+                <img class="products__content-img" src="images/products/4.jpg" alt="img4">
+                <span class="products__content-text">cufflinks</span>
+              </a>
+              <a class="products__content-link" href="#">
+                <img class="products__content-img" src="images/products/5.jpg" alt="img5">
+                <span class="products__content-text">wristbands</span>
+              </a>
+              <a class="products__content-link" href="#">
+                <img class="products__content-img" src="images/products/6.jpg" alt="img6">
+                <span class="products__content-text">clock</span>
+              </a>
+            </div>
+            <div class="products__content-item" id="husband">
+              content 2
+            </div>
+            <div class="products__content-item" id="wife">
+              content 3
+            </div>
+            <div class="products__content-item" id="partner">
+              content 4
+            </div>
+            <div class="products__content-item" id="collection">
+              content 5
+            </div>
+            <div class="products__content-item" id="rarity">
+              content 6
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="locations">
+      <div class="container">
+        <p class="locations__subtitle">
+          You don’t know what to do?
+        </p>
+        <h3 class="locations__title">
+          Visit our salons
+        </h3>
+        <p class="locations__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut duis tortor vitae pellentesque egestas quam
+          pulvinar.
+          Pellentesque porttitor velit sit pellentesque. Suspendisse donec pretium id dignissim. Dignissim ultrices eget
+          orci viverra.
+          Egestas quis et ut ultrices imperdiet lectus nulla tempus. Pharetra lorem sem purus nisi libero viverra ipsum.
+        </p>
+        <a class="locations__link" href="#">
+          our salons
+        </a>
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="container">
+        <p class="blog__subtitle">
+          useful articles
+        </p>
+        <h3 class="blog__title">
+          Best tips for choosing expensive gifts
+        </h3>
+        <div class="blog__inner">
+          <div class="blog__item">
+            <a class="blog__link" href="">
+              <img class="blog__img" src="images/blog/1.jpg" alt="blog-img">
+              <p class="blog__text">
+                How To Choose <br>
+                future wife<br>
+              </p>
+            </a>
+          </div>
+          <div class="blog__item">
+            <a class="blog__link" href="">
+              <img class="blog__img" src="images/blog/2.jpg" alt="blog-img">
+              <p class="blog__text">
+                Cufflinks for the husband: <br>
+                7 Key Rules <br>
+                accessory purchase <br>
+              </p>
+            </a>
+          </div>
+          <div class="blog__item">
+            <a class="blog__link" href="">
+              <img class="blog__img" src="images/blog/3.jpg" alt="blog-img">
+              <p class="blog__text">
+                how to choose <br>
+                wedding rings <br>
+                newlyweds <br>
+              </p>
+            </a>
+          </div>
+        </div>
+        <a class="blog__bottom-link" href="#">
+          read our blog
+        </a>
+      </div>
+    </section>
+
+    <section class="social">
+      <div class="container">
+        <a class="social__jeverly-link" href="#">
+          #ojjo_jewerly
+        </a>
+        <h3 class="social__title">
+          We’re on social media
+        </h3>
+        <div class="social__inner">
+          <div class="social__item-popup" style="background-image: url('images/social/1.jpg')">
+            <a class="social__item-link" data-fancybox href="https://www.youtube.com/watch?v=FPL4hnmA84A">
+              <img class="social__item-img" src="images/social/play.svg" alt="play-button">
+            </a>
+          </div>
+          <div class="social__item">
+            <a class="social__link" href="#">
+              <img class="social__link-img" src="images/social/2.jpg" alt="social-images">
+            </a>
+          </div>
+          <div class="social__item">
+            <a class="social__link" href="#">
+              <img class="social__link-img" src="images/social/3.jpg" alt="social-images">
+            </a>
+          </div>
+          <div class="social__item">
+            <a class="social__link" href="#">
+              <img class="social__link-img" src="images/social/4.jpg" alt="social-images">
+            </a>
+          </div>
+          <div class="social__item">
+            <a class="social__link" href="#">
+              <img class="social__link-img" src="images/social/5.jpg" alt="social-images">
+            </a>
+          </div>
+          <div class="social__item-popup" style="background-image: url('images/social/6.jpg')">
+            <a class="social__item-link" data-fancybox href="https://www.youtube.com/watch?v=EO8hH_2OwCU">
+              <img class="social__item-img" src="images/social/play.svg" alt="play-button">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order">
+      <div class="container">
+        <p class="order__subtitle">
+          Helpful tips and personal suggestions
+        </p>
+        <h3 class="order__title">
+          Exclusive mailing list
+        </h3>
+        <div class="order__inner">
+          <div class="order__links">
+            <ul class="order__items">
+              <li class="order__item">
+                <a class="order__link" href="">
+                  Personal manager
+                </a>
+              </li>
+              <li class="order__item">
+                <a class="order__link" href="">
+                  Delivery and registration
+                </a>
+              </li>
+              <li class="order__item">
+                <a class="order__link" href="">
+                  custom design
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="order__form-inner">
+            <form class="order__form">
+              <input class="order__form-input" type="text" placeholder="Your e-mail">
+              <button class="order__form-btn" type="submit">send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__top-item footer__top-contact">
+          <h5 class="footer__item-title">
+            useful links
+          </h5>
+          <ul class="footer__top-list">
+            <li class="footer__list-item">
+              <a href="" class="footer__list-link">
+                Delivery
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__list-link">
+                Payment
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__list-link">
+                Shares
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__list-link">
+                Privacy policy
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__top-item">
+          <h5 class="footer__item-title">
+            Payment
+          </h5>
+          <p class="footer__item-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.
+          </p>
+          <div class="footer__links-inner">
+            <a class="footer__link" href="#">
+              <img class="footer__img" src="images/footer/visa.jpg" alt="pay image">
+            </a>
+            <a class="footer__link" href="#">
+              <img class="footer__img" src="images/footer/master.jpg" alt="pay image">
+            </a>
+          </div>
+        </div>
+        <div class="footer__top-item footer__top-contact">
+          <h5 class="footer__item-title">
+            Contact
+          </h5>
+          <ul class="footer__top-list">
+            <li class="footer__list-item">
+              <a href="" class="footer__list-link footer__link-phone">
+                8 (812) 234-56-55
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__list-link footer__link-phone">
+                8 (812) 234-56-55
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__list-link footer__link-mail">
+                ojjo@ojjo.ru
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__top-item">
+          <h5 class="footer__item-title">
+            Social
+          </h5>
+          <p class="footer__item-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.
+          </p>
+          <div class="footer__links-inner">
+            <a class="footer__link" href="#">
+              <img class="footer__img" src="images/footer/youtube.svg" alt="youtube">
+            </a>
+            <a class="footer__link" href="#">
+              <img class="footer__img" src="images/footer/vk.svg" alt="vk">
+            </a>
+            <a class="footer__link" href="#">
+              <img class="footer__img" src="images/footer/telegram.svg" alt="telegram">
+            </a>
+            <a class="footer__link" href="#">
+              <img class="footer__img" src="images/footer/facebook.svg" alt="facebook">
+            </a>
+            <a class="footer__link" href="#">
+              <img class="footer__img" src="images/footer/link.svg" alt="link">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <ul class="footer__bottom-list">
+          <li class="footer__bottom-item">
+            <a class="footer__bottom-link" href="#">
+              (c) 2020 OJJO jewelry
+            </a>
+          </li>
+          <li class="footer__bottom-item">
+            <a class="footer__bottom-link" href="#">
+              Public benefit agreement
+            </a>
+          </li>
+          <li class="footer__bottom-item">
+            <a class="footer__bottom-link" href="#">
+              counterparties
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
